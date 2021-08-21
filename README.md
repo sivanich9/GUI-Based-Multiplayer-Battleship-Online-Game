@@ -27,10 +27,12 @@ Game rules:
 
 External Packages Used:
 This requires a package named “Pygame” which sets up the outer look as well as the logic of the game. To make it online, i.e. to set up a server and a few clients, we include a few additional packages named “Socket”, “Thread” and “Random module”.
-We need to use another package named “Pickle” which is used share dataamong server and clients in form of objects rather than as a string.
+We need to use another package named “Pickle” which is used share data among server and clients in form of objects rather than as a string.
 
 Commands to run:
 
 python main_server.py nnnn
+
 python main_client.py nnnn
+
 in different terminals.
